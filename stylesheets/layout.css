@@ -1,3 +1,18 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 1512px;
+  display: block;
+  margin: o auto;
+  font-family: "Anglecia Pro";
+}
+.section-1 {
+  display: flex;
+}
+.section-1 img {
+  width: 1512px;
+}
