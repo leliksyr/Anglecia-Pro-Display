@@ -64,27 +64,27 @@ body {
   width: 100%;
   font-size: 28px;
 }
-.napliv {
+.influx {
   width: fit-content;
   top: 477px;
   left: 895px;
 }
-.vershina {
+.vertex {
   width: fit-content;
   top: 783px;
   left: 232px;
 }
-.perekladina {
+.crossbar {
   width: fit-content;
   top: 1183px;
   left: 1299px;
 }
-.kapla {
+.drop {
   width: fit-content;
   top: 1335px;
   left: 1338px;
 }
-.zasechki {
+.serifs {
   width: fit-content;
   top: 1245px;
   left: 452px;
@@ -141,7 +141,7 @@ body {
   position: absolute;
   font-size: 28px;
 }
-.naklonniy1 {
+.inclined {
   font-style: italic;
   font-weight: 300;
   top: 620px;
@@ -154,14 +154,14 @@ body {
   left: 730px;
 }
 
-.naklonniy2 {
+.tilted_rotated {
   font-style: italic;
   font-weight: 300;
   transform: rotate(270deg);
   top: 650px;
   left: 240px;
 }
-.obichniy {
+.ordinary {
   font-style: italic;
   font-weight: 300;
   transform: rotate(270deg);
@@ -172,7 +172,7 @@ body {
   top: 1020px;
   left: 1027px;
 }
-.rusia {
+.Russian {
   width: fit-content;
   position: relative;
   font-size: 80px;
@@ -180,7 +180,7 @@ body {
   left: 100px;
   color: #b22416;
 }
-.america {
+.English {
   width: fit-content;
   position: relative;
   font-size: 80px;
@@ -232,12 +232,12 @@ body {
   top: 570px;
   left: 221px;
 }
-.kak {
+.how {
   width: 100%;
   top: 370px;
   left: 221px;
 }
-.text {
+.typefaces {
   top: 1000px;
   left: 918px;
 }
