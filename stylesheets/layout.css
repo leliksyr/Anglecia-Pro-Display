@@ -10,16 +10,357 @@ body {
   margin: 0 auto;
   font-family: "Anglecia Pro";
 }
-.section-1 {
+.section {
   display: flex;
   flex-direction: column;
-  width: 1512px;
-  height: 980px;
+  width: 100%;
+}
+.section-1 {
+  height: 100vh;
   background-image: url("../images/firstscreen.svg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ivite-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.ivite-text p {
+  font-size: 32px;
+  font-weight: 400;
+}
+.ivite-text h1 {
+  font-size: 120px;
+  font-weight: 400;
+}
+.section-2 {
+  position: relative;
+}
+.content2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.page-flag h2 {
+  position: absolute;
+  font-size: 80px;
+  font-weight: 400;
+  text-align: center;
+  top: 150px;
+  left: 534px;
+  color: white;
+}
+.content2 > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.font-anatomi {
+  position: absolute;
+  width: 100%;
+  font-size: 28px;
+}
+.napliv {
+  width: fit-content;
+  top: 477px;
+  left: 895px;
+}
+.vershina {
+  width: fit-content;
+  top: 783px;
+  left: 232px;
+}
+.perekladina {
+  width: fit-content;
+  top: 1183px;
+  left: 1299px;
+}
+.kapla {
+  width: fit-content;
+  top: 1335px;
+  left: 1338px;
+}
+.zasechki {
+  width: fit-content;
+  top: 1245px;
+  left: 452px;
+}
+.circle-blue {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  background-color: #cff1fa;
+}
+.circle-pink {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  background-color: #fad4cf;
+}
+.section-3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.page-flag-two {
+  position: relative;
+  width: 100%;
 }
 
-.section-1 p {
+.page-flag-two img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page-flag-two h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+.section-3 > img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.section-3 p {
+  width: fit-content;
+  position: absolute;
+  font-size: 28px;
+}
+.naklonniy1 {
+  font-style: italic;
+  font-weight: 300;
+  top: 620px;
+  left: 672px;
+}
+.italic {
+  font-style: italic;
+  font-weight: 300;
+  top: 770px;
+  left: 730px;
+}
+
+.naklonniy2 {
+  font-style: italic;
+  font-weight: 300;
+  transform: rotate(270deg);
+  top: 650px;
+  left: 240px;
+}
+.obichniy {
+  font-style: italic;
+  font-weight: 300;
+  transform: rotate(270deg);
+  top: 820px;
+  left: 390px;
+}
+.regular {
+  top: 1020px;
+  left: 1027px;
+}
+.rusia {
+  width: fit-content;
+  position: relative;
+  font-size: 80px;
+  top: -860px;
+  left: 100px;
+  color: #b22416;
+}
+.america {
+  width: fit-content;
+  position: relative;
+  font-size: 80px;
+  top: -682px;
+  left: 100px;
+  color: #b22416;
+  margin-bottom: -500px;
+}
+.page-flag-three {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+.page-flag-three img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.page-flag-three h2 {
+  position: absolute;
+  font-size: 80px;
+  font-weight: 400;
+  text-align: center;
+  top: 150px;
+  left: 562px;
+}
+.longtext {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+.longtext img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.longtext h2 {
+  position: absolute;
+  font-size: 80px;
+  color: #b22416;
+  width: fit-content;
+}
+.longtext p {
+  width: fit-content;
+  position: absolute;
+  font-size: 28px;
+  top: 570px;
+  left: 221px;
+}
+.kak {
+  width: 100%;
+  top: 370px;
+  left: 221px;
+}
+.text {
+  top: 1000px;
+  left: 918px;
+}
+.section-5 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/pismo.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+.section-5 p {
+  width: fit-content;
+  position: absolute;
+  font-size: 28px;
+}
+.footer {
+  position: absolute;
+  top: auto;
+  bottom: 30px;
+  left: 70px;
+  margin: 0;
+}
+.take {
+  top: 300px;
+  left: 590px;
+  text-align: center;
+}
+.section-5 img {
+  position: absolute;
+  top: auto;
+  bottom: 30px;
+  left: auto;
+  right: 70px;
+  width: 236px;
+  height: 88px;
+}
+/* Области с конфетти */
+.content2,
+.section-5 {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Общий стиль кружков */
+.bubble {
+  position: absolute;
+  top: -40px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  opacity: 0.7;
+  z-index: 10;
+  pointer-events: none;
+  animation: bubble-fall 9s linear infinite;
+}
+
+/* Цвета */
+.bubble--blue {
+  background-color: #cff1fa;
+}
+
+.bubble--pink {
+  background-color: #fad4cf;
+}
+
+/* Разное расположение и скорость */
+.bubble:nth-of-type(1) {
+  left: 10%;
+  animation-duration: 8s;
+  animation-delay: -2s;
+}
+
+.bubble:nth-of-type(2) {
+  left: 27%;
+  animation-duration: 11s;
+  animation-delay: -6s;
+}
+
+.bubble:nth-of-type(3) {
+  left: 43%;
+  animation-duration: 9s;
+  animation-delay: -4s;
+}
+
+.bubble:nth-of-type(4) {
+  left: 62%;
+  animation-duration: 12s;
+  animation-delay: -8s;
+}
+
+.bubble:nth-of-type(5) {
+  left: 78%;
+  animation-duration: 10s;
+  animation-delay: -3s;
+}
+
+.bubble:nth-of-type(6) {
+  left: 92%;
+  animation-duration: 7s;
+  animation-delay: -5s;
+}
+
+/* Анимация падения */
+@keyframes bubble-fall {
+  0% {
+    top: -40px;
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(30px);
+  }
+
+  100% {
+    top: 100%;
+    transform: translateX(-20px);
+  }
+}
+
+/* .section-1 p {
   font-size: 32px;
   font-weight: 400;
 }
@@ -30,12 +371,10 @@ body {
 .section-1 img {
   position: absolute;
   top: 0;
-  width: 1512px;
   z-index: -1;
 }
 
 .ivite-text-area {
-  width: 1512px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -46,7 +385,6 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 1512px;
   height: 397px;
   background-image: url("../images/flag1.svg");
 }
@@ -64,7 +402,7 @@ body {
   position: relative;
 }
 .section-3 img {
-  width: 1512px;
+  width: 100%;
 }
 .section-3 p {
   width: fit-content;
@@ -124,7 +462,7 @@ body {
   background-size: cover;
   height: 1616px;
 }
-p {
+.section-5 p {
   width: fit-content;
   position: absolute;
   font-size: 28px;
@@ -196,10 +534,17 @@ p {
 .section-7 {
   display: flex;
   flex-direction: column;
-  width: 1512px;
+  width: 100%;
   height: 1866px;
   background-image: url("../images/lenta.svg");
   background-size: cover;
+}
+.card {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.card-header {
 }
 .section-7 h2 {
   position: relative;
@@ -209,6 +554,7 @@ p {
   color: #b22416;
 }
 .kak {
+  width: 100%;
   top: 270px;
   left: 221px;
 }
@@ -224,7 +570,7 @@ p {
 .section-8 {
   display: flex;
   flex-direction: column;
-  width: 1512px;
+  width: 100%;
   height: 1179px;
   background-image: url("../images/pismo.svg");
   background-size: cover;
@@ -238,4 +584,4 @@ p {
   top: 497px;
   left: 502px;
   text-align: center;
-}
+} */
